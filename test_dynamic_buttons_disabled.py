@@ -16,6 +16,7 @@ URL = 'https://testpages.eviltester.com/styled/dynamic-buttons-disabled.html'
 class TestDynamicButtonsSimple:
     def setup_method(self):
         options = Options()
+        options.add_argument("--headless")
         options.add_argument("--disable-search-engine-choice-screen")
         options.add_experimental_option("detach", True)
         self.browser = webdriver.Chrome(options=options)
