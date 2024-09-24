@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Sep 24 17:41:35 GMT 2024","Tue Sep 24 17:41:47 GMT 2024","11780","","test_dynamic_buttons_disabled","TestDynamicButtonsSimple","","","test_click_all_buttons",""
